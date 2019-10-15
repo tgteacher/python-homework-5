@@ -5,7 +5,7 @@ def test_average():
     assert(avg == 5.45)
 
 def test_max():
-    raise("Remove this line and implement your test instead")
+    raise Exception("Remove this line and implement your test instead")
 
 def test_acute_patient():
-    raise("Remove this line and implement your test instead")
+    raise Exception("Remove this line and implement your test instead")
