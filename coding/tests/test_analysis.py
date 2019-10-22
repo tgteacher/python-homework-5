@@ -5,9 +5,9 @@ def test_average():
     assert(avg == 5.45)
 
 def test_max():
-    m = analysis.max_inflammations(3)
-    assert(m == 17)
+    m = analysis.max_inflammations(1)
+    assert(m == 18)
 
 def test_acute_patient():
-    p = analysis.acute_patient()
-    assert( p == 46)
+    patient_id = analysis.acute_patient()
+    assert(patient_id == 46)
